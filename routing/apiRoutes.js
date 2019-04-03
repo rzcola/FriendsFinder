@@ -2,7 +2,7 @@
 const path = require("path");
 var userArray = require("../app/data/friends.js");
 
-// Routes ------------------------------------------
+// Friends Routes  ------------------------------------------
 
 
 module.exports = function(app) {
