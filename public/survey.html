@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://use.fontawesome.com/3034f1aea5.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="/">Friend Finder</a>
+    </nav>
+    <div class="container mt-3">
+        <form>
+            <div class="row">
+                <div class="form-group col-md-12">
+                    <h2 class="text-center">Survey Questions</h2>
+                    <hr>
+                    <h3 class="text-center"><strong>About You</strong></h3>
+                </div>
+                <div class="col">
+                    <label class="col-form-label" for="name">Name (Required)</label>
+                    <input type="text" name="" id="name" class="form-control" required>
+                </div>
+                <div class="col">
+                    <label class="col-form-label" for="photo">Link to a Photo Image (Required)</label>
+                    <input type="text" name="" id="photo" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-row mt-4">
+                <div class="form-group col-md-4">
+                    <h3>Question 1</h3>
+                    <hr>
+                    <label for="q1">You love to push yourself to new levels in all aspects of life.</label>
+                    <select class="form-control chosen-select" id="q1">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <h3>Question 2</h3>
+                    <hr>
+                    <label for="q2">You often enjoy a good read.</label>
+                    <select class="form-control chosen-select" id="q2">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <h3>Question 3</h3>
+                    <hr>
+                    <label for="q3">You love situations where the spotlight is all on you.</label>
+                    <select class="form-control chosen-select" id="q3">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row mt-4">
+                <div class="form-group col-md-4">
+                    <h3>Question 4</h3>
+                    <hr>
+                    <label for="q4">You love to code.</label>
+                    <select class="form-control chosen-select" id="q4">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <h3>Question 5</h3>
+                    <hr>
+                    <label for="q5">You look forward to 2 out of the 7 days in the week.</label>
+                    <select class="form-control chosen-select" id="q5">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <h3>Question 6</h3>
+                    <hr>
+                    <label for="q6">You find people annoying.</label>
+                    <select class="form-control chosen-select" id="q6">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row mt-4">
+                <div class="form-group col-md-4">
+                    <h3>Question 7</h3>
+                    <hr>
+                    <label for="q7">You are always right no matter what.</label>
+                    <select class="form-control chosen-select" id="q7">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <h3>Question 8</h3>
+                    <hr>
+                    <label for="q8">Its a dog eat dog world.</label>
+                    <select class="form-control chosen-select" id="q8">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <h3>Question 9</h3>
+                    <hr>
+                    <label for="q9">you spend a majority of the day scolling through social media platforms.</label>
+                    <select class="form-control chosen-select" id="q9">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row mt-4">
+                <div class="form-group col-md-4">
+                    <h3>Question 10</h3>
+                    <hr>
+                    <label for="q10">The Golden State Warriors are the best team in the NBA.</label>
+                    <select class="form-control chosen-select" id="q10">
+                        <option selected value="">Choose...</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row mt-2">
+                <div class="form-group mr-auto">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a></p>
+            </div>
+        </footer>
+    </div>
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script>
+    // Capture the survey form inputs 
+    $("#submit").on("click", function() {
+
+        function validationForm() {
+            var isValid = true;
+            $('.form-control').each(function() {
+                if ($(this).val() === '')
+                    isValid = false;
+            });
+
+            $('.chosen-select').each(function() {
+
+                if ($(this).val() === "")
+                    isValid = false
+            })
+            return isValid;
+        }
+
+        if (validationForm() === true) {
+
+            var scores = JSON.stringify([$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]);
+
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: scores
+            }
+
+            var currentURL = window.location.origin;
+
+            $.post(currentURL + "/api/friends", userData, function(data) {
+
+                console.log(data);
+                $("#matchName").text(data.name);
+                $('#matchImg').attr("src", data.photo);
+                $("#resultsModal").modal('toggle');
+
+            });
+        }
+
+        $("#name").val("");
+        $("#photo").val("");
+        $("#q1").val(""), $("#q2").val(""), $("#q3").val(""), $("#q4").val(""), $("#q5").val(""),
+        $("#q6").val(""), $("#q7").val(""), $("#q8").val(""), $("#q9").val(""), $("#q10").val("");
+
+        return false;
+    });
+    </script>
+</body>
+
+</html>
